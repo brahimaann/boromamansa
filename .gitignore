@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# Large image files (over GitHub's 100MB limit)
+public/images/nk 4.16.25-*.tif
+*.tif
+
 # debug
 npm-debug.log*
 yarn-debug.log*
