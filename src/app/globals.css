@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Historic';
+  src: url('/Historic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Walker';
+  src: url('/Walker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+
+  --foreground: #797979;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure Tailwind text size utilities work properly with Chakra UI */
+
+.homepage {
+  background-image: url("/MO2x%20HPG.jpg");
+  background-size: cover;
+  background-position: center 65%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.gallery-page {
+  background-image: url("/BGD%202.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.packages-page {
+  background-image: url("/BGD%202.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Pinterest-style masonry layout */
+.gallery-page .break-inside-avoid {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
