@@ -41,6 +41,7 @@ yarn-error.log*
 !package.json
 !package-lock.json
 !tsconfig.json
+!.claude/settings.json
 
 # vercel
 .vercel

@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-code-zero": {
+      "source": {
+        "source": "github",
+        "repo": "LeeJuOh/claude-code-zero"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "notebooklm-connector@claude-code-zero": true
+  }
+}
